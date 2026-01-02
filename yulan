@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>气质穿搭商店</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin:0; font-family: -apple-system,BlinkMacSystemFont,"PingFang SC"; background:#f6f6f6;}
+    .container { max-width: 420px; margin:auto; background:#fff;}
+    .header { padding:20px; text-align:center; font-size:22px; font-weight:bold;}
+    .product { padding:15px; border-bottom:1px solid #eee;}
+    .product img { width:100%; border-radius:8px;}
+    .title { margin-top:10px; font-size:16px; font-weight:500; }
+    .desc { margin-top:5px; font-size:14px; color:#555;}
+    .price { color:#e60023; font-size:18px; margin-top:5px; }
+    .buy { margin-top:10px; padding:12px; background:#000; color:#fff; text-align:center; border-radius:6px; cursor:pointer;}
+    .footer { padding:20px; text-align:center; font-size:13px; color:#888; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">气质穿搭精选</div>
+
+  <!-- 9 产品展示 -->
+  <div class="product">
+    <img src="images/p1.jpg" alt="产品1">
+    <div class="title">高弹显腿长丝袜</div>
+    <div class="desc">舒适透气，日常百搭</div>
+    <div class="price">￥39</div>
+    <div class="buy" onclick="alert('请接入支付')">立即购买</div>
+  </div>
+
+  <div class="product">
+    <img src="images/p2.jpg" alt="产品2">
+    <div class="title">轻熟风小裙子</div>
+    <div class="desc">优雅气质，修身显瘦</div>
+    <div class="price">￥59</div>
+    <div class="buy" onclick="alert('请接入支付')">立即购买</div>
+  </div>
+
+  <div class="product">
+    <img src="images/p3.jpg" alt="产品3">
+    <div class="title">日常私服连衣裙</div>
+    <div class="desc">柔软舒适，适合各种场合</div>
+    <div class="price">￥69</div>
+    <div class="buy" onclick="alert('请接入支付')">立即购买</div>
+  </div>
+
+  <div class="product">
+    <img src="images/p4.jpg" alt="产品4">
+    <div class="title">修身短裙套装</div>
+    <div class="desc">夏日清爽，显腿长</div>
+    <div class="price">￥49</div>
+    <div class="buy" onclick="alert('请接入支付')">立即购买</div>
+  </div>
+
+  <div class="product">
+    <img src="images/p5.jpg" alt="产品5">
+    <div class="title">气质雪纺连衣裙</div>
+    <div class="desc">柔美飘逸，约会必备</div>
+    <div class="price">￥79</div>
+    <div class="buy" onclick="alert('请接入支付')">立即购买</div>
+  </div>
+
+  <div class="product">
+    <img src="images/p6.jpg" alt="产品6">
+    <div class="title">高腰百褶裙</div>
+    <div class="desc">显腿长，休闲百搭</div>
+    <div class="price">￥59</div>
+    <div class="buy" onclick="alert('请接入支付')">立即购买</div>
+  </div>
+
+  <div class="product">
+    <img src="images/p7.jpg" alt="产品7">
+    <div class="title">气质针织连衣裙</div>
+    <div class="desc">修身显瘦，柔软舒适</div>
+    <div class="price">￥69</div>
+    <div class="buy" onclick="alert('请接入支付')">立即购买</div>
+  </div>
+
+  <div class="product">
+    <img src="images/p8.jpg" alt="产品8">
+    <div class="title">透气打底裤</div>
+    <div class="desc">修身显瘦，百搭必备</div>
+    <div class="price">￥39</div>
+    <div class="buy" onclick="alert('请接入支付')">立即购买</div>
+  </div>
+
+  <div class="product">
+    <img src="images/p9.jpg" alt="产品9">
+    <div class="title">日系小清新裙</div>
+    <div class="desc">轻盈飘逸，温柔气质</div>
+    <div class="price">￥69</div>
+    <div class="buy" onclick="alert('请接入支付')">立即购买</div>
+  </div>
+
+  <div class="footer">支持微信扫码支付 · 私密发货</div>
+</div>
+
+</body>
+</html>
